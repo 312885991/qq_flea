@@ -1,0 +1,88 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/main/announce/announce",
+    "pages/main/announceList/announceList",
+    "pages/goods/goods",
+    "pages/mine/praise/praise",
+    "pages/mine/mine",
+    "pages/mine/myComment/myComment",
+    "pages/mine/myPush/myPush",
+    "pages/mine/praise/record/record",
+    "pages/mine/about/about",
+    "pages/goods/goodInfo/goodInfo",
+    "pages/mine/like/like",
+    "pages/mine/log/log",
+    "pages/mine/publication/publication",
+    "pages/mine/edit/edit",
+    "pages/mine/userInfo/userInfo",
+    "pages/goods/comment/comment",
+    "pages/mine/contact/contact"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00B26A",
+    "navigationBarTitleText": "校园闲置品交易平台",
+    "navigationBarTextStyle": "white",
+    "backgroundColor":"light"
+  },
+  "groupIdList":[
+    "755381232"
+  ],
+  "tabBar": {
+    "color":"#999999",
+    "selectedColor":"#999999",
+    "backgroundColor":"#F7F7FA",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "iconPath": "icon/main.png",
+        "selectedIconPath": "icon/main-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/goods/goods",
+        "iconPath": "icon/goods.png",
+        "selectedIconPath": "icon/goods-active.png",
+        "text": "商品"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "icon/mine.png",
+        "selectedIconPath": "icon/mine-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom",
+    "van-notice-bar": "vant-weapp/notice-bar",
+    "van-icon": "vant-weapp/icon",
+    "van-divider": "vant-weapp/divider",
+    "van-collapse": "vant-weapp/collapse",
+    "van-collapse-item": "vant-weapp/collapse-item",
+    "van-sidebar": "vant-weapp/sidebar",
+    "van-sidebar-item": "vant-weapp/sidebar-item",
+    "van-cell": "vant-weapp/cell",
+    "van-cell-group": "vant-weapp/cell-group",
+    "van-row": "vant-weapp/row",
+    "van-col": "vant-weapp/col",
+    "van-search": "vant-weapp/search",
+    "van-card": "vant-weapp/card",
+    "van-field": "vant-weapp/field",
+    "van-radio": "vant-weapp/radio",
+    "van-radio-group": "vant-weapp/radio-group",
+    "van-datetime-picker": "vant-weapp/datetime-picker",
+    "van-area": "vant-weapp/area",
+    "van-button": "vant-weapp/button",
+    "van-toast": "vant-weapp/toast",
+    "van-tag": "vant-weapp/tag",
+    "van-tab": "vant-weapp/tab",
+    "van-tabs": "vant-weapp/tabs",
+    "van-sticky": "vant-weapp/sticky",
+    "van-nav-bar": "vant-weapp/nav-bar",
+    "van-dialog": "vant-weapp/dialog",
+    "van-panel": "vant-weapp/panel"
+  },
+  "sitemapLocation": "sitemap.json"
+}
